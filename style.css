@@ -1,0 +1,41 @@
+:root{
+    --bg1:hsl(327, 100%, 84%);
+    --bg2:hsl(342, 100%, 75%);
+    
+    
+    }
+    
+    *{margin: 0; padding: 0; box-sizing: border-box;}
+    img{width: 100%;}
+    body{
+    
+    
+    
+        
+    }
+    .container{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: repeat();
+    background-image: linear-gradient(to right, var(--bg1), var(--bg2));
+    }
+    
+    .matrix{
+    width: 50vh;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5, 1fr);
+    
+    
+    
+    }
+    .field{
+    box-shadow: 0 0 10px 1px #000;
+    
+    
+    }
