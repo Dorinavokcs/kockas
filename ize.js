@@ -10,19 +10,10 @@ function render(){
 }
 function RandomColoring(){
     return Math.floor(Math.random()*254+1)
-
-
-
-
 }
-
 function coloring(){
     let r = randomColor();
     let g= randomColor();
     let b = randomColor();
-
-
 }
-
-
 render();
